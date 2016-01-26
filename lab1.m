@@ -3,17 +3,17 @@
 
 int main()
 {
-  printf(“This is my 1st   C statement.”);
-  printf(“This is my 2nd  C statement.”);
-  printf(“This is my 3rd  C statement.”);
-  printf(“This is my 4th C statement.”);
-  printf(“This is my 5th  C statement.”);
+  printf("This is my 1st   C statement.");
+  printf("This is my 2nd  C statement.");
+  printf("This is my 3rd  C statement.");
+  printf("This is my 4th C statement.");
+  printf("This is my 5th  C statement.");
 
-  NSLog(@”This is my 1st objective-C statement.”);
-  NSLog(@”This is my 2nd objective-C statement.”);
-  NSLog(@”This is my 3rd  objective-C statement.”);
-  NSLog(@”This is my 4th  objective-C statement.”);
-  NSLog(@”This is my 5th  objective-C statement.”);
+  NSLog(@"This is my 1st objective-C statement.");
+  NSLog(@"This is my 2nd objective-C statement.");
+  NSLog(@"This is my 3rd  objective-C statement.");
+  NSLog(@"This is my 4th  objective-C statement.");
+  NSLog(@"This is my 5th  objective-C statement.");
 
   sleep(1);
 
@@ -84,7 +84,7 @@ NSLog(@"myNSNumber = %@", [myNSNumber stringvalue]);
 // 5)
 it jj;
 for (jj=0; jj < 4; jj++) {
-   NSLog(@”%d, “,jj);
+   NSLog(@"%d, ",jj);
 }
 
 
@@ -92,43 +92,43 @@ for (jj=0; jj < 4; jj++) {
 // 6)
 double x=24.0;
 NSNumber *result = @(x * .15);
-NSLog(@”%.2f”,[result doubleVelue]);
+NSLog(@"%.2f",[result doubleVelue]);
 
 
 
 // 7)
-int len = [@”Hello” length];
-NSLog(@”Length of string = %i”, len);
+int len = [@"Hello" length];
+NSLog(@"Length of string = %i", len);
 
 
 
 // 8)
-NSString *ns = [NSString stringWithFormat:@”My Number=%d and %d”, 4, 5];
-NSLog(@” %@”, ns);
+NSString *ns = [NSString stringWithFormat:@"My Number=%d and %d", 4, 5];
+NSLog(@" %@", ns);
 
 
 
 // 9)
-NSString *string1=@”This is a string”;
+NSString *string1=@"This is a string";
 NSMutableString *string2;
 string2 = [NSMutableString stringWithString:string1];
-NSLog(@” string1 = %@, string2 =  %@”, string1, string2);
+NSLog(@" string1 = %@, string2 =  %@", string1, string2);
 
 
 
 // 10)
-NSMutableString *string3=[NSMutableString stringWithString:@”The quick brown fox jumped.”];
-[string3 insertString:@”agile, “ atIndex : 4];
-NSLog(@” string3 = %@”, string3);
+NSMutableString *string3=[NSMutableString stringWithString:@"The quick brown fox jumped."];
+[string3 insertString:@"agile, " atIndex : 4];
+NSLog(@" string3 = %@", string3);
 
 
 
 
 // 11)
-NSString *string4=@”The quick brown fox jumped”;
+NSString *string4=@"The quick brown fox jumped";
 NSString *string5;
 string5 = [string4 capitalizedString];
-NSLog(@” string4 = %@, string5 = %@”, string4, string5);
+NSLog(@" string4 = %@, string5 = %@", string4, string5);
 
 also can try: lowerCaseString, upperCaseString
 
@@ -142,7 +142,7 @@ Comment out the #import <UIKit/UIKit.h> statements
 Add the #import <Foundation/Foundation.h> statement instead
 
 // 14) add 5 lines of the following C code:
-printf(“This is a line of C code. \n”);
+printf("This is a line of C code. \n");
 
 
 // 13)
